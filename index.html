@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TSA NEWS</title>
+    <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <section class="header">
+            <nav>
+                <a href="index.html"><h2 class="logo">TSA NEWS</h2></a>
+                <div class="nav_links" id="navLinks">
+                    <i class="close-icon"><img src="images/close+icon.png" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Trending Posts</a></li>
+                        <li><a href="#">Confessions</a></li>
+                        <li><a href="#">Magazine</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <a class="cta" href="#"><button>Contact Us</button></a>
+                <i class="menu-bar"><img src="images/menu.png" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Coming Soon!</h1>
+                <img src="images/under_construction.png" class="const">
+                <p>Our website is under-construction. Follow our social media pages to know when we are up and running</p>
+               
+                <!--------------------Social-Media---------------->
+
+                <div class="social-media">
+                    <a href="https://www.facebook.com/profile.php?id=100089492925824" target="_blank"><img src="images/Facebook1.png" class="facebook"></a>
+                    <a href="#"><img src="images/Twitter1.png" class="twitter"></a>
+                    <a href="#"><img src="images/Instagram1.png" class="instagram"></a>
+                </div>
+<!--------------------Social-Media-end---------------->
+            </div>
+            
+    </section>
+    
+    
+
+    <section class="footer">
+        <div class="row">
+            <div class="col">
+                <h2 class="conduct">CODE OF CONDUCT</h2>
+                <p>TSA has signed the code of conduct that is enforced by the South African
+                    Broadcasting Complaints Commission of South Africa. Under the code,
+                    we have committed to giving news that is funny, comedy that is fair,
+                    and content that does not amount to hate speech or the description of
+                    gratuitous violence or explicit sex. If you think we are not living
+                    up to that code, VOETSEK!.
+                </p>
+            </div>
+            <div class="col">
+                <h3>Contact Details <div class="underline"><span></span></div></h3>
+                <p class="email-id">thescreenshotassociation@gmail.com</p>
+                <h4>+27 68 446 6441</h4>
+                <div class="social_media_bottom">
+                    <a href="https://www.facebook.com/profile.php?id=100089492925824"><img src="images/Facebook.png" class="facebook"></a>
+                    <a href="#"><img src="images/Twitter.png" class="twitter"></a>
+                    <a href="#"><img src="images/Instagram.png" class="instagram"></a>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Trending Posts</a></li>
+                    <li><a href="#">Confessions</a></li>
+                    <li><a href="#">Magazine</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>NewsLetter <div class="underline"><span></span></div></h3>
+                <form>
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+            <p class="cookies">This website, published by Peter T. Matlhasi, uses cookies, which
+                help to run the website in various ways, including essential services,
+                advertising and analytics. By accepting or dismissing this notice, or
+                continuing to use this website, you consent to us using cookies.
+            </p>
+        </div>
+        <hr>
+        <p class="copyright">Copyright © 2023 The Screenshot Association - Designed by Peter Matlhasi</p>
+    </section>
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
