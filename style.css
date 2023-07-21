@@ -303,9 +303,9 @@ nav .menu-bar img{
 }
 
 
+/* media query*/
 
-
-@media only screen and (max-width: 1000px) and (orientation: landscape){
+@media only screen and (max-width: 1150px) and (orientation: landscape){
     button{
         font-size: 10px;
         padding: 5px 15px;
@@ -418,11 +418,19 @@ nav .menu-bar img{
 
 }
 
+@media only screen and (max-width: 1600px) and (orientation: landscape){
+
+    .row .cookies{
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+}
 
 
-/* media query*/
 
-@media only screen and (max-width: 1000px) and (orientation: portrait){
+@media only screen and (max-width: 1150px) and (orientation: portrait){
     button{
         font-size: 10px;
         padding: 5px 15px;
